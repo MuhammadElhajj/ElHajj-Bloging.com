@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/ElHajj-Bloging.com/static/css/main.6ede3c1b.css",
+    "main.js": "/ElHajj-Bloging.com/static/js/main.90e2cc22.js",
+    "static/media/bgc3.jpeg": "/ElHajj-Bloging.com/static/media/bgc3.0eaf118d0a556c94d06e.jpeg",
+    "static/media/photo1.jpeg": "/ElHajj-Bloging.com/static/media/photo1.21a70438cd672d68b025.jpeg",
+    "static/media/photo2.jpeg": "/ElHajj-Bloging.com/static/media/photo2.5e802c663d9561f66b37.jpeg",
+    "static/media/insta.png": "/ElHajj-Bloging.com/static/media/insta.b074879174dd8ecfd041.png",
+    "static/media/Mian.jpeg": "/ElHajj-Bloging.com/static/media/Mian.402f20c71853f65a6871.jpeg",
+    "static/media/bgc5.jpeg": "/ElHajj-Bloging.com/static/media/bgc5.0116653a6f95e7cfe365.jpeg",
+    "static/media/Profile Photo.jpeg": "/ElHajj-Bloging.com/static/media/Profile Photo.fbf55da6bc257d8e3e59.jpeg",
+    "static/media/photo5.jpeg": "/ElHajj-Bloging.com/static/media/photo5.80ea7cf757962d562fad.jpeg",
+    "static/media/bgc1.jpeg": "/ElHajj-Bloging.com/static/media/bgc1.332aad8269a8cffcd87a.jpeg",
+    "static/media/photo3.jpeg": "/ElHajj-Bloging.com/static/media/photo3.ac1f8a0b90461e67cfc9.jpeg",
+    "static/media/bgc2.jpeg": "/ElHajj-Bloging.com/static/media/bgc2.18e83936510800b2a0db.jpeg",
+    "static/media/bgc4.jpg": "/ElHajj-Bloging.com/static/media/bgc4.b8924500fcae6b1da16a.jpg",
+    "static/media/twitter.png": "/ElHajj-Bloging.com/static/media/twitter.a55543af50e79f14306f.png",
+    "static/media/telegram_icon-icons.com_72055 (1).png": "/ElHajj-Bloging.com/static/media/telegram_icon-icons.com_72055 (1).a6400fc9458b4b92f8a3.png",
+    "static/media/Logo.jpg": "/ElHajj-Bloging.com/static/media/Logo.0edcea075fc1cf12cc4d.jpg",
+    "static/media/linkedin_icon-icons.com_65929 (1).png": "/ElHajj-Bloging.com/static/media/linkedin_icon-icons.com_65929 (1).4506ebc862bab12b6eeb.png",
+    "static/media/facebook_icon-icons.com_66092 (1).png": "/ElHajj-Bloging.com/static/media/facebook_icon-icons.com_66092 (1).60b736a90dd022f2ae13.png",
+    "index.html": "/ElHajj-Bloging.com/index.html",
+    "main.6ede3c1b.css.map": "/ElHajj-Bloging.com/static/css/main.6ede3c1b.css.map",
+    "main.90e2cc22.js.map": "/ElHajj-Bloging.com/static/js/main.90e2cc22.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6ede3c1b.css",
+    "static/js/main.90e2cc22.js"
+  ]
+}
