@@ -1,0 +1,371 @@
+.Home {
+
+  
+
+
+
+    &__h2 {
+        text-align: center;
+        color: $dark-text-color;
+        margin: 10px 0;
+    }
+
+    &__p {
+        text-align: center;
+        color: #ccc;
+        margin: 5px 0;
+    }
+
+    .Post-main-home {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 0;
+        align-items: center;
+
+        .MianPhoto {
+            margin: 20px 0;
+            border-radius: 20px;
+            border: 1px solid $primary-color;
+        }
+
+
+        .main-post {
+
+            background-color: rgb(255, 255, 255);
+            width: 400px;
+            border: 1px solid rgb(184, 2, 243);
+            border-radius: 10px;
+            padding: 20px 20px 10px 20px;
+      
+
+            button {
+                outline: 0;
+                border: 0;
+                padding: 7px 30px;
+
+                border-radius: 20px;
+                color: $dark-bgc-color;
+                letter-spacing: 1px;
+                font-weight: 600;
+                cursor: pointer;
+                border: 1px solid rgb(184, 2, 243);
+                transition: 0.3s;
+                background: transparent;
+
+
+            }
+
+            h2 {
+                font-size: 18px;
+                font-weight: 600;
+                margin-top: 25px;
+            }
+
+            .Account-ifno {
+
+                display: flex;
+                align-items: center;
+                margin: 10px 0;
+
+                .ProfilePhoto {
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    margin-right: 10px;
+                }
+
+                .Name-data {
+
+                    h4 {
+                        font-size: 16px;
+                    }
+
+                    p {
+                        font-size: 12px;
+                    }
+                }
+            }
+
+            .React-part {
+
+
+                display: flex;
+                justify-content: space-between;
+
+                .love-comment {
+                    display: flex;
+
+                    span {
+                        display: flex;
+                        align-items: center;
+                        background-color: #ccc;
+                        padding: 0px 8px;
+                        margin-right: 25px;
+                        border-radius: 10px;
+                        font-size: 12px;
+
+                        .heart,
+                        .comment {
+                            margin-right: 3px;
+                        }
+                    }
+                }
+
+            }
+
+            .Saved-part {
+
+                background-color: #ccc;
+                border-radius: 50%;
+                width: 24px;
+                height: 24px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .save {
+                    font-size: 20px;
+                    cursor: pointer;
+                }
+
+            }
+        }
+
+    }
+
+    .Auther-Part {
+        // background-color: red;
+        padding: 10px 0;
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+
+        .auther-card-main {
+            margin-bottom: 20px;
+
+
+            .Auther-card {
+                background-color: $dark-text-color;
+                padding-bottom: 10px;
+                border-radius: 10px;
+                // border: 1px solid $primary-color;
+                box-shadow: 0 0 10px $primary-color;
+
+
+                .background-auther {
+                    width: 100%;
+                    height: 50%;
+                    border-radius: 5px 5px 0 0;
+                }
+
+                .profile-auther {
+
+                    width: 60px;
+                    border-radius: 50%;
+
+                }
+
+                .Auther-name {
+
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    padding: 10px;
+
+                    span {
+                        margin-left: 15px;
+
+                        h2 {
+                            color: $dark-bgc-color;
+                            font-size: 20px;
+                        }
+
+                        h5 {
+                            color: #888;
+                            font-size: 15px;
+                        }
+                    }
+
+
+
+                }
+
+                .Subsicribe-button {
+                    display: flex;
+                    justify-content: space-around;
+                    padding: 25px 0 0 0;
+
+
+                    .span-artical {
+
+                        background-color: gray ;
+                        padding: 3px 0;
+                        border-radius: 5px;
+                        color: $dark-text-color;
+                        font-size: 13px;
+                        width: 80px;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+
+footer {
+    text-align: center;
+    color: $dark-text-color;
+    // padding: 10px 0 20px 0;
+    border-top: 1px solid $primary-color;
+    margin: 0 auto;
+
+.CopyRight {
+    text-align: center;
+    color: $dark-text-color;
+    padding: 10px  0;
+    border-top: 1px solid $primary-color;
+}
+    .footer-main {
+        display: flex;
+        justify-content: space-around;
+        padding: 10px 0;
+
+
+        .footer-card {
+
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+
+            h3 {
+                font-size: 25px;
+            }
+
+            font-size: 13px;
+
+            a {
+                text-decoration: none;
+                color: #ddd;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+
+.Trending__h2 {
+    color: $dark-text-color;
+    margin: 10px 0;
+
+}
+
+.Trending__p {
+    color: #ccc;
+    margin: 5px 0;
+}
+
+.SocialMedia {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+
+    img {
+        width: 35px;
+        margin-left: 10px;
+        cursor: pointer;
+        transition: 0.5s;
+
+        &:hover {
+            transform: scale(1.2);
+        }
+    }
+}
+
+
+@media screen and (min-width : 0px) and (max-width : 989px) {
+
+    .Home .Post-main-home {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width : 0px) and (max-width : 700px) {
+
+    .Home .Post-main-home .MianPhoto {width: 90%; }
+}
+
+@media screen and (min-width : 0px) and (max-width : 500px) {
+
+    .Home .Post-main-home .main-post  {width: 90%; }
+}
+
+@media screen and (min-width : 0px) and (max-width :600px) {
+    .Home .Auther-Part .auther-card-main .Auther-card .Subsicribe-button .span-artical {
+        font-size: 10px;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .Home .Auther-Part .auther-card-main .Auther-card .profile-auther {
+        width: 50px;
+    }    
+    .Home .Auther-Part .auther-card-main .Auther-card .Auther-name span h2 {
+font-size: 16px;
+    }
+    .Home .Auther-Part .auther-card-main .Auther-card .Auther-name span h5 {
+     
+        font-size: 12px;
+    }
+}
+@media screen and (min-width : 0px) and (max-width :450px) { 
+    .Home .Auther-Part .auther-card-main .Auther-card .Auther-name {
+        
+        flex-direction: column;
+        justify-content: center;
+    }
+    .Home .Auther-Part .auther-card-main .Auther-card .Subsicribe-button {
+      
+        padding: 6px 5px 0 ;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .Home .Auther-Part .auther-card-main .Auther-card .background-auther {
+   
+        display: none;
+    }
+}
+
+
+@media screen and (min-width : 0px) and (max-width : 700px) {  
+    
+
+    footer .footer-main .footer-card h3 {
+        font-size: 18px;
+    }
+    footer .footer-main .footer-card a {
+        font-size: 10px;
+    }
+
+}
+
+@media screen and (min-width : 0px) and (max-width : 400px) { 
+    footer .footer-main {
+      
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    footer .footer-main .footer-card {
+       
+        padding-bottom: 5px;
+        border-bottom: 1px solid #79029f;
+    }
+    .Home .Auther-Part .auther-card-main {
+        padding: 0 5px;
+    }
+    }

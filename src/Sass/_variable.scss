@@ -1,0 +1,17 @@
+$primary-color : rgb(184 2 243);
+// $primary-color :  rgb(255, 0, 0); 
+ $dark-bgc-color : rgb(0, 0, 0) ;
+ $dark-text-color : rgb(255, 255, 255) ;
+
+$light-bgc-color : rgb(255, 255, 255);
+$light-text-color : rgb(0, 0, 0);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: $dark-bgc-color;
+}

@@ -1,0 +1,23 @@
+@import './variable';
+@import './_config.sass';
+@import './header';
+@import './home';
+// @import './about';
+// @import './contact';
+// @import './blogins';
+
+
+
+section {
+    padding: 10px 10%;
+}
+
+.App {
+    padding: 0 10%;
+}
+
+@media screen and (min-width : 0px) and (max-width : 1200px) {
+    .App {
+        padding: 0 3%;
+    }
+}
