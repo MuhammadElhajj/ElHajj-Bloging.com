@@ -1,0 +1,102 @@
+.Sidebar {
+    position: fixed;
+    width: 94%;
+    height: calc(100vh - 50.8px);
+    background-color: #000000;
+    z-index: 11111;
+    transition: 0.5s;
+}
+
+.Sidebar__Link__Img {
+    width: 30px;
+}
+
+.Sidebar__Links__Container {
+display: flex;
+flex-direction: column;
+}
+
+.Sidebar__Link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    width: 100%;
+    // margin-bottom: 10px;
+    border-bottom: 1px solid #b802f3;
+    padding: 10px;
+    color: #fff;
+
+    & span:last-child {
+        margin-left: 5px;
+        margin-left: 14px;
+        transition: 0.3s;
+
+      
+    }
+    
+    &:hover {
+        background-color: #b802f357;
+
+        & span:last-child {
+            margin-left: 34px;
+        }
+    }
+}
+
+.Sidebar__Close__Icon {
+    color: red;
+    width: 100%;
+    position: absolute;
+    bottom: 40px;
+    font-size: 24px;
+    width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 1px solid transparent;
+    cursor: pointer;
+
+    &:hover {
+        border-color: red;
+      
+    }
+
+}
+
+.Sidebar__Main__Links {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+
+    & .Sidebar__Main__Link {
+        text-decoration: none;
+        border: 1px solid #b802f3;
+        padding: 5px 30px;
+    border-radius: 10px;
+    transition: 0.3s;
+    color: $light-bgc-color;
+
+        &:hover {
+            
+        }
+    }
+}
+
+.Sidebar__Social__Media__h2 {
+    padding: 10px;
+    color: $light-bgc-color;
+}
+
+
+@media screen and (min-width : 0px) and (max-width : 630px) {
+    .Sidebar__Main__Links {
+      
+        flex-direction: column;
+
+        & .Sidebar__Main__Link {
+            margin-bottom: 5px;
+            text-align: center;
+        }
+    }
+}

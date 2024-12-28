@@ -6,7 +6,7 @@ import Logo from '../../images/Logo.jpg'
 import { FaBars } from 'react-icons/fa';
 
 
-function Header() {
+function Header({OpenSidebar}) {
   return (
     <header className='Header'>
     <div className='Logo__Part'>
@@ -44,7 +44,7 @@ function Header() {
     <div className='Search__Notification__profile__Part'>
       {HeaderIcon.map(item => <a href='#d' className='Icons'>{item.icon}</a>)}
     </div>
-    <FaBars className='FaBars'/>
+    <FaBars className='FaBars' onClick={OpenSidebar}/>
   </header>
   )
 }

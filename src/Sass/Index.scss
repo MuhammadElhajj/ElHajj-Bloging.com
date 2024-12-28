@@ -2,17 +2,24 @@
 @import './_config.sass';
 @import './header';
 @import './home';
+@import './sidebar';
 // @import './about';
 // @import './contact';
 // @import './blogins';
 
+* {
 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
 section {
     padding: 10px 10%;
 }
 
 .App {
+    position: relative;
     padding: 0 10%;
 }
 
