@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ElHajj-Bloging.com/static/css/main.6ede3c1b.css",
-    "main.js": "/ElHajj-Bloging.com/static/js/main.90e2cc22.js",
+    "main.css": "/ElHajj-Bloging.com/static/css/main.50eb255e.css",
+    "main.js": "/ElHajj-Bloging.com/static/js/main.7c2140fe.js",
     "static/media/bgc3.jpeg": "/ElHajj-Bloging.com/static/media/bgc3.0eaf118d0a556c94d06e.jpeg",
     "static/media/photo1.jpeg": "/ElHajj-Bloging.com/static/media/photo1.21a70438cd672d68b025.jpeg",
     "static/media/photo2.jpeg": "/ElHajj-Bloging.com/static/media/photo2.5e802c663d9561f66b37.jpeg",
@@ -20,11 +20,11 @@
     "static/media/linkedin_icon-icons.com_65929 (1).png": "/ElHajj-Bloging.com/static/media/linkedin_icon-icons.com_65929 (1).4506ebc862bab12b6eeb.png",
     "static/media/facebook_icon-icons.com_66092 (1).png": "/ElHajj-Bloging.com/static/media/facebook_icon-icons.com_66092 (1).60b736a90dd022f2ae13.png",
     "index.html": "/ElHajj-Bloging.com/index.html",
-    "main.6ede3c1b.css.map": "/ElHajj-Bloging.com/static/css/main.6ede3c1b.css.map",
-    "main.90e2cc22.js.map": "/ElHajj-Bloging.com/static/js/main.90e2cc22.js.map"
+    "main.50eb255e.css.map": "/ElHajj-Bloging.com/static/css/main.50eb255e.css.map",
+    "main.7c2140fe.js.map": "/ElHajj-Bloging.com/static/js/main.7c2140fe.js.map"
   },
   "entrypoints": [
-    "static/css/main.6ede3c1b.css",
-    "static/js/main.90e2cc22.js"
+    "static/css/main.50eb255e.css",
+    "static/js/main.7c2140fe.js"
   ]
 }
